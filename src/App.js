@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Cookies from 'js-cookie';
+import detectBrowserLanguage from 'detect-browser-language';
 
 import './App.css';
 import NavBarMain from './components/navbar';
@@ -31,7 +32,6 @@ class App extends Component {
     }
 
     changeLanguage(booleanVar) {
-        Cookies.remove('inEng');
         this.setState({
             inEnglish: booleanVar
         });
@@ -44,17 +44,20 @@ class App extends Component {
     }
 
     componentDidMount() {
-        if (Cookies.get('inEng') !== undefined) {
-            if (Cookies.get('inEng') === 'eng') {
-                this.setState({
-                    inEnglish: true
-                });
-            }
-            else {
-                this.setState({
-                    inEnglish: false
-                });
-            }
+        if (detectBrowserLanguage() === 'pt-BR') {
+            this.setState({
+                inEnglish: false
+            });
+        }
+        if (Cookies.get('inEng') === 'eng') {
+            this.setState({
+                inEnglish: true
+            });
+        }
+        else if (Cookies.get('inEng') === 'pt') {
+            this.setState({
+                inEnglish: false
+            });
         }
     }
 
