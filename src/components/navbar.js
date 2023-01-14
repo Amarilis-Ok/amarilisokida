@@ -9,28 +9,28 @@ import { RiContactsBook2Line } from "react-icons/ri"
 import { BsJournalText } from "react-icons/bs"
 import { US, BR, GB } from 'country-flag-icons/react/3x2'
 
-import './navbar.css'
+import './styles.css'
 
 function NavBarMain() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar className="p-3" bg="black" variant="dark" expand="lg">
       <Container>
         <Navbar.Brand href="#home">Amarilis Okida</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-end flex-grow-1 pe-3">
-                <Nav.Link className="pe-3" href="#action1">Home <MdOutlineHome /></Nav.Link>
-                <Nav.Link className="pe-3" href="#action2">About me <MdOutlineInfo /></Nav.Link>
-                <Nav.Link className="pe-3" href="#action2">Portfolio <BiBook /></Nav.Link>
-                <Nav.Link className="pe-3" href="#action2">Contact <RiContactsBook2Line /></Nav.Link>
-                <Nav.Link className="pe-3" href="#action2">Blog <BsJournalText /></Nav.Link>
+                <Nav.Link className="pe-3">Home <MdOutlineHome /></Nav.Link>
+                <Nav.Link className="pe-3">About me <MdOutlineInfo /></Nav.Link>
+                <Nav.Link className="pe-3">Portfolio <BiBook /></Nav.Link>
+                <Nav.Link className="pe-3">Contact <RiContactsBook2Line /></Nav.Link>
+                <Nav.Link className="pe-3">Blog <BsJournalText /></Nav.Link>
                 <NavDropdown
                 title="Language"
                 >
-                    <NavDropdown.Item href="#action3">
+                    <NavDropdown.Item>
                         English <US className="flagSize" /> <GB className="flagSize" />
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">
+                    <NavDropdown.Item>
                         Portuguese <BR className="flagSize" />
                     </NavDropdown.Item>
                 </NavDropdown>

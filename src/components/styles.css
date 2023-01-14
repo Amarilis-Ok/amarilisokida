@@ -1,0 +1,26 @@
+.flagSize {
+    height: 16px;
+}
+.iconSizeHome {
+    height: 24px;
+    font-size: 24px;
+}
+.jumboTron {
+    background-color: black;
+    text-align: center;
+}
+.SpImage {
+    height: 500px;
+}
+.photoImage {
+    height: 700px;
+}
+.interpretImage {
+    height: 200px;
+}
+.linkColor {
+    color: black;
+}
+.linkColor:hover {
+    color: red;
+}
