@@ -7,6 +7,7 @@ import NavBarMain from './components/navbar';
 import Home from './components/home';
 import AboutMe from './components/aboutme';
 import Contact from './components/contact';
+import Portfolio from './components/portfolio/portfolio';
 
 class App extends Component {
     constructor(props) {
@@ -74,7 +75,7 @@ class App extends Component {
                 showComponent = <Contact inEnglish={this.state.inEnglish} />
                 break;
             case 3:
-                //showComponent = <Portfolio inEnglish={this.state.inEnglish} />
+                showComponent = <Portfolio inEnglish={this.state.inEnglish} />
                 break;
             default:
                 showComponent = <Home inEnglish={this.state.inEnglish} />

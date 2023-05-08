@@ -16,7 +16,7 @@ function NavBarMain(props) {
     return (
       <Navbar className="p-3" bg="black" variant="dark" expand="lg">
         <Container>
-          <Navbar.Brand onClick={() => props.pageFunc(0)}>Amarilis Okida</Navbar.Brand>
+          <Navbar.Brand className="titleHover" onClick={() => props.pageFunc(0)}>Amarilis Okida</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="justify-content-end flex-grow-1 pe-3">

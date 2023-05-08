@@ -24,3 +24,14 @@
 .linkColor:hover {
     color: red;
 }
+.titleHover:hover {
+    cursor:pointer;
+}
+.cardImage {
+    height: 200px;
+    object-fit: cover;
+}
+
+.cardHover:hover {
+    cursor:pointer;
+}
