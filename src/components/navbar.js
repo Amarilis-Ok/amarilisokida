@@ -24,7 +24,7 @@ function NavBarMain(props) {
                   <Nav.Link onClick={() => props.pageFunc(1)} className="pe-3">About me <MdOutlineInfo /></Nav.Link>
                   <Nav.Link onClick={() => props.pageFunc(3)} className="pe-3">Portfolio <BiBook /></Nav.Link>
                   <Nav.Link onClick={() => props.pageFunc(2)} className="pe-3">Contact <RiContactsBook2Line /></Nav.Link>
-                  <Nav.Link className="pe-3">Blog <BsJournalText /></Nav.Link>
+                  <Nav.Link onClick={() => alert('Under construction!')} className="pe-3">Blog <BsJournalText /></Nav.Link>
                   <NavDropdown
                   title="Language"
                   >
@@ -53,7 +53,7 @@ function NavBarMain(props) {
                   <Nav.Link onClick={() => props.pageFunc(1)} className="pe-3">Sobre mim <MdOutlineInfo /></Nav.Link>
                   <Nav.Link onClick={() => props.pageFunc(3)} className="pe-3">Portfólio <BiBook /></Nav.Link>
                   <Nav.Link onClick={() => props.pageFunc(2)} className="pe-3">Contato <RiContactsBook2Line /></Nav.Link>
-                  <Nav.Link className="pe-3">Blog <BsJournalText /></Nav.Link>
+                  <Nav.Link onClick={() => alert('Em construção!')} className="pe-3">Blog <BsJournalText /></Nav.Link>
                   <NavDropdown
                   title="Idioma"
                   >

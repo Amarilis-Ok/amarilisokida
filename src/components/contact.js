@@ -23,7 +23,7 @@ function Contact(props) {
                         </Col>
                         <Col className="pb-5" xs={12} lg={3}>
                             <h3>Instagram <AiOutlineInstagram /></h3>
-                            <a className="linkColor" href="https://www.instagram.com/amarilis_okida/">@amarilis_okida</a>
+                            <a className="linkColor" href="https://www.instagram.com/amarilis_okida_tradutora/">@amarilis_okida_tradutora</a>
                         </Col>
                         <Col className="pb-5" xs={12} lg={3}>
                             <h3>LinkedIn <AiOutlineLinkedin /></h3>
@@ -55,7 +55,7 @@ function Contact(props) {
                         </Col>
                         <Col className="pb-5" xs={12} lg={3}>
                             <h3>Instagram <AiOutlineInstagram /></h3>
-                            <a className="linkColor" href="https://www.instagram.com/amarilis_okida/">@amarilis_okida</a>
+                            <a className="linkColor" href="https://www.instagram.com/amarilis_okida_tradutora/">@amarilis_okida_tradutora</a>
                         </Col>
                         <Col className="pb-5" xs={12} lg={3}>
                             <h3>LinkedIn <AiOutlineLinkedin /></h3>

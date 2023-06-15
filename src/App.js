@@ -45,7 +45,7 @@ class App extends Component {
     }
 
     componentDidMount() {
-        if (detectBrowserLanguage() === 'pt-BR') {
+        if ((detectBrowserLanguage() === 'pt-BR') || (detectBrowserLanguage() === 'pt')) {
             this.setState({
                 inEnglish: false
             });
