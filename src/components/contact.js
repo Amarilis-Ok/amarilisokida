@@ -19,7 +19,7 @@ function Contact(props) {
                     <Row>
                         <Col className="pb-5" xs={12} lg={3}>
                             <h3>Email <AiOutlineMail /></h3>
-                            <a className="linkColor" href="mailto:hello@amarilisokida.com.br">hello@amarilisokida.com.br</a>
+                            <a className="linkColor" href="mailto:amarilisokida@gmail.com">amarilisokida@gmail.com</a>
                         </Col>
                         <Col className="pb-5" xs={12} lg={3}>
                             <h3>Instagram <AiOutlineInstagram /></h3>
@@ -51,7 +51,7 @@ function Contact(props) {
                     <Row>
                         <Col className="pb-5" xs={12} lg={3}>
                             <h3>Email <AiOutlineMail /></h3>
-                            <a className="linkColor" href="mailto:hello@amarilisokida.com.br">hello@amarilisokida.com.br</a>
+                            <a className="linkColor" href="mailto:amarilisokida@gmail.com">amarilisokida@gmail.com</a>
                         </Col>
                         <Col className="pb-5" xs={12} lg={3}>
                             <h3>Instagram <AiOutlineInstagram /></h3>
