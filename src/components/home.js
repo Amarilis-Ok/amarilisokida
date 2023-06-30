@@ -30,7 +30,7 @@ function Home(props) {
                         I will make it possible for them.</p>
                 </Container>
                 <Container className={"mb-3 text-center"} fluid>
-                    <h2>What do I do</h2>
+                    <h2>What I do</h2>
                 </Container>
                 <Container className={"mb-4 text-center"} fluid>
                     <p>
