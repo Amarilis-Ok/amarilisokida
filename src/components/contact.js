@@ -8,7 +8,7 @@ import { AiOutlineMail, AiOutlineInstagram, AiOutlineLinkedin, AiOutlineClockCir
 import './styles.css'
 
 function Contact(props) {
-    const seal = require(`./../img/contacts/7.png`);
+    const seal = require(`./../img/contacts/selo.jpeg`);
     if (props.inEnglish) {
         return (
             <div fluid>
@@ -36,7 +36,7 @@ function Contact(props) {
                     </Row>
                 </Container>
                 <Container className="text-center justify-content-center text-align-center">
-                    <Image className="interpret" src={seal} />
+                    <Image className="sealImage pb-3" src={seal} />
                 </Container>
             </div>
         );
@@ -68,7 +68,7 @@ function Contact(props) {
                     </Row>
                 </Container>
                 <Container className="text-center justify-content-center text-align-center">
-                    <Image className="interpret" src={seal} />
+                    <Image className="sealImage pb-3" src={seal} />
                 </Container>
             </div>
         );

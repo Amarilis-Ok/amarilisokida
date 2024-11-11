@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { MdOutlineHome, MdOutlineInfo } from "react-icons/md";
 import { BiBook } from "react-icons/bi";
-import { RiContactsBook2Line } from "react-icons/ri"
+import { RiContactsBook2Line, RiTranslate, RiTranslate2 } from "react-icons/ri"
 import { BsJournalText } from "react-icons/bs"
 import { US, BR, GB } from 'country-flag-icons/react/3x2'
 
@@ -26,7 +26,7 @@ function NavBarMain(props) {
                   <Nav.Link onClick={() => props.pageFunc(2)} className="pe-3">Contact <RiContactsBook2Line /></Nav.Link>
                   <Nav.Link onClick={() => alert('Under construction!')} className="pe-3">Blog <BsJournalText /></Nav.Link>
                   <NavDropdown
-                  title="Language"
+                  title=<RiTranslate2 />
                   >
                       <NavDropdown.Item onClick={() => props.langFunc(true)}>
                           English <US className="flagSize" /> <GB className="flagSize" />
@@ -55,7 +55,7 @@ function NavBarMain(props) {
                   <Nav.Link onClick={() => props.pageFunc(2)} className="pe-3">Contato <RiContactsBook2Line /></Nav.Link>
                   <Nav.Link onClick={() => alert('Em construção!')} className="pe-3">Blog <BsJournalText /></Nav.Link>
                   <NavDropdown
-                  title="Idioma"
+                  title=<RiTranslate2 />
                   >
                       <NavDropdown.Item onClick={() => props.langFunc(true)}>
                           Inglês <US className="flagSize" /> <GB className="flagSize" />
