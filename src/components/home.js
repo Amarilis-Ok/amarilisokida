@@ -8,12 +8,12 @@ import Button from 'react-bootstrap/Button';
 import './styles.css'
 
 function Home(props) {
-    const img = require(`./../img/Amarilis_logo_final__area_entorno.jpg`);
+    const img = require("./../img/Amarilis_logo_final__area_entorno.jpg");
     if (props.inEnglish) {
         return (
             <div fluid>
                 <Container fluid className="jumboTron">
-                    <Image src={img} fluid className="responsive-image" />
+                    <Image src={img} />
                 </Container>
                 <Container className={"mt-4 mb-4 text-center"} fluid>
                     <h1>Amarilis Okida</h1>
@@ -46,7 +46,7 @@ function Home(props) {
         return (
             <div fluid>
                 <Container fluid className="jumboTron">
-                    <Image src={img} fluid className="responsive-image" />
+                    <Image src={img} />
                 </Container>
                 <Container className={"mt-4 mb-4 text-center"} fluid>
                     <h1>Amarilis Okida</h1>
