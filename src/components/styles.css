@@ -6,30 +6,11 @@
     font-size: 24px;
 }
 .jumboTron {
-    padding: 0;
-    margin: 0;
-    position: relative;
-    overflow: hidden;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
-
-.responsive-image {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-@media (max-width: 768px) {
-    .responsive-image {
-        max-height: 300px; /* Adjust as needed */
-    }
-    .photoImage {
-        max-height: 300px; /* Adjust as needed */
-    }
-    .SpImage {
-        height: 300px;
-    }
-}
-
 .SpImage {
     height: 500px;
 }
