@@ -1,7 +1,7 @@
 {
-  "main.css": "/amarilisokida/static/css/main.de931fe7.chunk.css",
-  "main.js": "/amarilisokida/static/js/main.98e8d4fd.chunk.js",
-  "main.js.map": "/amarilisokida/static/js/main.98e8d4fd.chunk.js.map",
+  "main.css": "/amarilisokida/static/css/main.54855c63.chunk.css",
+  "main.js": "/amarilisokida/static/js/main.92fea279.chunk.js",
+  "main.js.map": "/amarilisokida/static/js/main.92fea279.chunk.js.map",
   "static/js/1.5933624e.chunk.js": "/amarilisokida/static/js/1.5933624e.chunk.js",
   "static/js/1.5933624e.chunk.js.map": "/amarilisokida/static/js/1.5933624e.chunk.js.map",
   "static/css/2.9382db08.chunk.css": "/amarilisokida/static/css/2.9382db08.chunk.css",
@@ -30,9 +30,9 @@
   "static/media/numeros_de_azar.jpg": "/amarilisokida/static/media/numeros_de_azar.e6c88acc.jpg",
   "static/media/peixe_zumbi.jpg": "/amarilisokida/static/media/peixe_zumbi.51eaff96.jpg",
   "static/media/r.webp": "/amarilisokida/static/media/r.4a678c68.webp",
+  "static/css/main.54855c63.chunk.css.map": "/amarilisokida/static/css/main.54855c63.chunk.css.map",
   "static/css/2.9382db08.chunk.css.map": "/amarilisokida/static/css/2.9382db08.chunk.css.map",
-  "static/css/main.de931fe7.chunk.css.map": "/amarilisokida/static/css/main.de931fe7.chunk.css.map",
   "index.html": "/amarilisokida/index.html",
-  "precache-manifest.69c9fedb9a894db0d0673927b015f5bb.js": "/amarilisokida/precache-manifest.69c9fedb9a894db0d0673927b015f5bb.js",
+  "precache-manifest.4bcde3e8d5b52f50f6791af9609a0fc5.js": "/amarilisokida/precache-manifest.4bcde3e8d5b52f50f6791af9609a0fc5.js",
   "service-worker.js": "/amarilisokida/service-worker.js"
 }

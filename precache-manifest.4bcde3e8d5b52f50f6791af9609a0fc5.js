@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "98e8d4fdd39b36713b10",
-    "url": "/amarilisokida/static/css/main.de931fe7.chunk.css"
+    "revision": "92fea279b3ea99507635",
+    "url": "/amarilisokida/static/css/main.54855c63.chunk.css"
   },
   {
-    "revision": "98e8d4fdd39b36713b10",
-    "url": "/amarilisokida/static/js/main.98e8d4fd.chunk.js"
+    "revision": "92fea279b3ea99507635",
+    "url": "/amarilisokida/static/js/main.92fea279.chunk.js"
   },
   {
     "revision": "5933624ef5c4c436412d",
@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/amarilisokida/static/media/r.4a678c68.webp"
   },
   {
-    "revision": "7693fdb9b698d59ae1d36a939644d367",
+    "revision": "063e292ee3f70cd68b30c1479a9995fa",
     "url": "/amarilisokida/index.html"
   }
 ];
