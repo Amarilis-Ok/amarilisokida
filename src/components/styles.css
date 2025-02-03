@@ -22,6 +22,12 @@
     .responsive-image {
         max-height: 300px; /* Adjust as needed */
     }
+    .photoImage {
+        max-height: 300px; /* Adjust as needed */
+    }
+    .SpImage {
+        height: 300px;
+    }
 }
 
 .SpImage {
