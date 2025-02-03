@@ -32,7 +32,7 @@ function NavBarMain(props) {
                           English <US className="flagSize" /> <GB className="flagSize" />
                       </NavDropdown.Item>
                       <NavDropdown.Item onClick={() => props.langFunc(false)}>
-                          Portuguese <BR className="flagSize" />
+                          Português <BR className="flagSize" />
                       </NavDropdown.Item>
                   </NavDropdown>
               </Nav>
@@ -58,7 +58,7 @@ function NavBarMain(props) {
                   title=<RiTranslate2 />
                   >
                       <NavDropdown.Item onClick={() => props.langFunc(true)}>
-                          Inglês <US className="flagSize" /> <GB className="flagSize" />
+                          English <US className="flagSize" /> <GB className="flagSize" />
                       </NavDropdown.Item>
                       <NavDropdown.Item onClick={() => props.langFunc(false)}>
                           Português <BR className="flagSize" />
