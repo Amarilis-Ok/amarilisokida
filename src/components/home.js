@@ -13,7 +13,7 @@ function Home(props) {
         return (
             <div fluid>
                 <Container fluid className="jumboTron">
-                    <Image src={img} />
+                    <Image src={img} fluid className="responsive-image" />
                 </Container>
                 <Container className={"mt-4 mb-4 text-center"} fluid>
                     <h1>Amarilis Okida</h1>
@@ -46,7 +46,7 @@ function Home(props) {
         return (
             <div fluid>
                 <Container fluid className="jumboTron">
-                    <Image src={img} />
+                    <Image src={img} fluid className="responsive-image" />
                 </Container>
                 <Container className={"mt-4 mb-4 text-center"} fluid>
                     <h1>Amarilis Okida</h1>
